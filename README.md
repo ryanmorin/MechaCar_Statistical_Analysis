@@ -15,3 +15,6 @@ The linear model does a good job in explaining the variance in MPG.  This is evi
 The design specifications for MechaCar's suspension stipulates that the variance associated with suspension coils doesn't exceed 100 PSI.  The variance for Lot 1 & Lot 2 are within design specifications. Lot 3 is outside design specifications.
 
 ![Coil_psi](https://github.com/ryanmorin/MechaCar_Statistical_Analysis/blob/main/psi_variance.png)
+
+## T-Tests on Suspension Coils
+
