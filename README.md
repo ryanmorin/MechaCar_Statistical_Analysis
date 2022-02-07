@@ -11,3 +11,7 @@ The slope of the linear regression is not zero.  This is evidenced by the very h
 
 The linear model does a good job in explaining the variance in MPG.  This is evidenced by the adjusted R squared of 0.68.  68% of the variance in the independant variable is explained by the changes in the dependant variables. Therefore there are other factors not included in the model that explain the remaining variance in MPG.
 
+## Summary Statistics on Suspension Coils
+The design specifications for MechaCar's suspension stipulates that the variance associated with suspension coils doesn't exceed 100 PSI.  The variance for Lot 1 & Lot 2 are within design specifications. Lot 3 is outside design specifications.
+
+![Coil_psi](https://github.com/ryanmorin/MechaCar_Statistical_Analysis/blob/main/psi_variance.png)
