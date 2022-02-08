@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-Multiple regression analysis is used whenever we wish to model the relationship between one indepenent variable and more than one dependant variable. This analysis looked at the impact of 5 dependant variables (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance and AWD) on MPG. The analysis demonstrated that three variables; vehicle_length, vehicle_weight and ground_clearance where statistically significant (a non-random amount of variance) at the 95% confidence interval. The impact on MPG from the other two variables (AWD and spoiler_angle) could be associated with chance.
+Multiple regression analysis is used whenever we wish to model the relationship between one independant variable and more than one dependant variable. This analysis looked at the impact of 5 dependant variables (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance and AWD) on MPG. The analysis demonstrated that three variables; vehicle_length, vehicle_weight and ground_clearance where statistically significant (a non-random amount of variance) at the 95% confidence interval. The impact on MPG from the other two variables (AWD and spoiler_angle) could be associated with chance.
 
 ![linear_regression](https://github.com/ryanmorin/MechaCar_Statistical_Analysis/blob/main/variable_significance.png)
 
@@ -27,12 +27,12 @@ The T-Test for all manufacturing lots is different from design specifications of
 
 ## Study Design: MechaCar vs. Competition
 
-Over a million people die each year in road traffic accidents <sup>[1](#myfootnote1)</sup>. In order to be appealing to consumers, MechaCar needs to focus on how it's car is safer compared to the competition.  MechaCar could compare how long it takes it's cars to stop to its competitors.
+Over a million people die each year in road traffic accidents <sup>[1](#myfootnote1)</sup>. In order to be appealing to consumers, MechaCar needs to focus on how it's car is safer compared to the competition.  MechaCar could compare how long it takes it's cars to stop vs. its competitors.
 
-<b>Metric to Test:</b></br> Breaking distance in feet from 60 mph
-<b>Null vs. alternate hypothesis:</b></br> The null hypothesis is that there is no difference between the stopping distance in feet from a car travelling at 60 mph. The alternative hypothesis is there is a difference between the stopping distance in feet from a car travelling at 60 mph.
-<b>Statistical Test:</b></br> You could use a t.test to compare the average stopping distances by each car to the mean stopping distance for all the cars in the sample.
-<b>Data Needed:</b></br> You would need a series of data points from each car detailing how long it took to come to a stop from 60 mph. 
+<b>Metric to Test:</b> Breaking distance in feet from 60 mph.</br>
+<b>Null vs. alternate hypothesis:</b> The null hypothesis: there is no difference between the stopping distance in feet from a car travelling at 60 mph. The alternative hypothesis is there is a difference between the stopping distance in feet from a car travelling at 60 mph.</br>
+<b>Statistical Test:</b> You could use a t.test to compare the average stopping distances by each car to the mean stopping distance for all the cars in the sample.</br>
+<b>Data Needed:</b> You would need a series of data points from each car detailing how long it took to come to a stop from 60 mph. 
 
 
 <a name="myfootnote1">1</a>: https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
